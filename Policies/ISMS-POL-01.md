@@ -469,11 +469,11 @@ This policy will be reviewed annually or when significant changes occur to ensur
 
 ## 21. Related Documents
 
-- ISMS-POL-02: Data Protection & Classification Policy
-- ISMS-POL-03: Access Control & Identity Management Policy
-- ISMS-POL-04: Incident Management Policy
-- ISMS-POL-05: Secure Development Policy
-- ISMS-PROC-01: Risk Assessment Procedure
+- [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
+- [Access Control & Identity Management Policy]({{ site.baseurl }}/policies/isms-pol-03/)
+- [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/)
+- [Secure Development Policy]({{ site.baseurl }}/policies/isms-pol-05/)
+- [Risk Assessment Procedure]({{ site.baseurl }}/procedures/isms-proc-01/)
 - ISMS-FORM-05: Security Exception Request Form
 
 ---

@@ -29,7 +29,6 @@ title: Compass - Management & Security @ Enablis
           {% endif %}
         {% endfor %}
       </ul>
-      <a href="{{ '/policies/' | relative_url }}" class="view-all">View all policies →</a>
     </div>
 
     <div class="section-card">
@@ -45,7 +44,6 @@ title: Compass - Management & Security @ Enablis
           {% endif %}
         {% endfor %}
       </ul>
-      <a href="{{ '/procedures/' | relative_url }}" class="view-all">View all procedures →</a>
     </div>
 
     <div class="section-card">
@@ -61,7 +59,6 @@ title: Compass - Management & Security @ Enablis
           {% endif %}
         {% endfor %}
       </ul>
-      <a href="{{ '/guides/' | relative_url }}" class="view-all">View all guides →</a>
     </div>
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Information Security Management Policy
-permalink: /policies/information-security-management/
+layout: document
+title: "Information Security Management Policy"
+permalink: /policies/isms-pol-01/
 ---
 
 # Information Security Management Policy

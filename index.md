@@ -1,39 +1,62 @@
 ---
 layout: home
-title: Enablis Compass
+title: Compass - Information Security Manual
 ---
 
-<div class="home-sections">
+<div class="manual-home">
+  <h1>Information Security Manual</h1>
+  
+  <p class="manual-intro">
+    Welcome to our Information Security Manual. This comprehensive resource contains all the policies, procedures, and guides that govern our information security practices.
+  </p>
 
-Welcome to Compass - your central guide to our information security management system (ISMS) documentation, including policies, procedures, and guides for the Enablis organization.
+  <div class="manual-sections">
+    <div class="section-card">
+      <h2>Policies</h2>
+      <p>Formal statements that define our organization's rules and guidelines for information security.</p>
+      <ul>
+        {% for page in site.pages %}
+          {% if page.path contains 'Policies/' and page.title %}
+            <li>
+              <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+              {% if page.document_id %}<span class="doc-id">{{ page.document_id }}</span>{% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <a href="{{ '/policies/' | relative_url }}" class="view-all">View all policies →</a>
+    </div>
 
+    <div class="section-card">
+      <h2>Procedures</h2>
+      <p>Step-by-step instructions for implementing our security policies and performing security-related tasks.</p>
+      <ul>
+        {% for page in site.pages %}
+          {% if page.path contains 'Procedures/' and page.title %}
+            <li>
+              <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+              {% if page.document_id %}<span class="doc-id">{{ page.document_id }}</span>{% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <a href="{{ '/procedures/' | relative_url }}" class="view-all">View all procedures →</a>
+    </div>
 
-<h2>Policies</h2>
-
-<ul>
-  <li><a href="{{ '/policies/isms-pol-01/' | relative_url }}"><strong>Information Security Management Policy</strong><br><small>ISMS-POL-01.md</small></a></li>
-  <li><a href="{{ '/policies/isms-pol-02/' | relative_url }}"><strong>Data Protection & Classification Policy</strong><br><small>ISMS-POL-02.md</small></a></li>
-  <li><a href="{{ '/policies/isms-pol-03/' | relative_url }}"><strong>Access Control & Identity Management Policy</strong><br><small>ISMS-POL-03.md</small></a></li>
-  <li><a href="{{ '/policies/isms-pol-04/' | relative_url }}"><strong>Incident Management Policy</strong><br><small>ISMS-POL-04.md</small></a></li>
-  <li><a href="{{ '/policies/isms-pol-05/' | relative_url }}"><strong>Secure Development Policy</strong><br><small>ISMS-POL-05.md</small></a></li>
-</ul>
-
-<h2>Procedures</h2>
-
-<ul>
-  <li><a href="{{ '/procedures/isms-proc-01/' | relative_url }}"><strong>Risk Assessment Procedure</strong><br><small>ISMS-PROC-01.md</small></a></li>
-  <li><a href="{{ '/procedures/isms-proc-02/' | relative_url }}"><strong>Secure Client Engagement Procedure</strong><br><small>ISMS-PROC-02.md</small></a></li>
-  <li><a href="{{ '/procedures/isms-proc-03/' | relative_url }}"><strong>Security Incident Response Procedure</strong><br><small>ISMS-PROC-03.md</small></a></li>
-  <li><a href="{{ '/procedures/isms-proc-04/' | relative_url }}"><strong>Asset Management Procedure</strong><br><small>ISMS-PROC-04.md</small></a></li>
-  <li><a href="{{ '/procedures/isms-proc-05/' | relative_url }}"><strong>Backup & Recovery Procedure</strong><br><small>ISMS-PROC-05.md</small></a></li>
-</ul>
-
-<h2>Guides</h2>
-
-<ul>
-  <li><a href="{{ '/guides/isms-guide-01/' | relative_url }}"><strong>Remote Working Security Guide</strong><br><small>ISMS-GUIDE-01.md</small></a></li>
-  <li><a href="{{ '/guides/isms-guide-02/' | relative_url }}"><strong>Cloud Security Baseline</strong><br><small>ISMS-GUIDE-02.md</small></a></li>
-  <li><a href="{{ '/guides/isms-guide-03/' | relative_url }}"><strong>Secure Development Handbook</strong><br><small>ISMS-GUIDE-03.md</small></a></li>
-</ul>
-
+    <div class="section-card">
+      <h2>Guides</h2>
+      <p>Helpful resources and best practices for maintaining information security.</p>
+      <ul>
+        {% for page in site.pages %}
+          {% if page.path contains 'Guides/' and page.title %}
+            <li>
+              <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+              {% if page.document_id %}<span class="doc-id">{{ page.document_id }}</span>{% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <a href="{{ '/guides/' | relative_url }}" class="view-all">View all guides →</a>
+    </div>
+  </div>
 </div> 

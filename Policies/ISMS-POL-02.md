@@ -4,8 +4,6 @@ title: "Data Protection & Classification Policy"
 permalink: /policies/isms-pol-02/
 ---
 
-# Enablis Data Protection & Classification Policy
-
 **Document ID**: ISMS-POL-02  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

@@ -4,8 +4,6 @@ title: "Information Security Management Policy"
 permalink: /policies/isms-pol-01/
 ---
 
-# Enablis Information Security Management Policy
-
 **Document ID**: ISMS-POL-01  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

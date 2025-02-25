@@ -1,7 +1,7 @@
 ---
 layout: document
 title: "Information Security Management Policy"
-permalink: /policies/information-security-management-policy/
+permalink: /pol01/
 ---
 
 # Enablis Information Security Management Policy

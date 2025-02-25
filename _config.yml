@@ -1,8 +1,8 @@
 title: Enablis Policies
 description: A home for Enablis policies and associated documentation
 theme: minima # This is a simple default theme
-baseurl: "" # Leave empty for username.github.io or use "/repo-name" for project sites
-url: "https://enablis-co.github.io/policies" # Replace with your GitHub Pages URL
+baseurl: "/policies" # This should match the repository name
+url: "https://enablis-co.github.io" # Your GitHub domain
 
 # Build settings
 markdown: kramdown

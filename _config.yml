@@ -9,4 +9,28 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-search 
+  - jekyll-search
+
+# Add these lines to your existing config
+include:
+  - Policies
+  - Procedures
+  - Guides
+
+# Optional: Set default layouts for files in these directories
+defaults:
+  - scope:
+      path: "Policies"
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "Procedures"
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "Guides"
+      type: "pages"
+    values:
+      layout: "page" 

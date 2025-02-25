@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Risk Assessment Procedure"
+permalink: /procedures/isms-proc-01/
+---
+
 # Enablis Risk Assessment Procedure
 
 **Document ID**: ISMS-PROC-01  

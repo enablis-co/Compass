@@ -4,17 +4,17 @@ layout: default
 <article class="document">
   <header class="document-header">
     <h1 class="document-title">{{ page.title | escape }}</h1>
+    
+    {% if page.content contains "Document ID" %}
     <div class="document-meta">
-      {% if page.document_id %}
-      <span class="document-id">Document ID: {{ page.document_id }}</span>
-      {% endif %}
-      {% if page.version %}
-      <span class="document-version">Version: {{ page.version }}</span>
-      {% endif %}
-      {% if page.last_updated %}
-      <span class="document-date">Last Updated: {{ page.last_updated }}</span>
-      {% endif %}
+      {% assign content_lines = page.content | newline_to_br | split: '<br />' %}
+      {% for line in content_lines limit:5 %}
+        {% if line contains "Document ID" or line contains "Version" or line contains "Last Updated" or line contains "Owner" or line contains "Approved by" %}
+          <span>{{ line | strip_html }}</span>
+        {% endif %}
+      {% endfor %}
     </div>
+    {% endif %}
   </header>
 
   <div class="document-content">

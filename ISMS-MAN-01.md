@@ -94,7 +94,7 @@ Key forms and templates support security processes:
 | **Security Manager** | • Day-to-day management of the ISMS<br>• Implementation and maintenance of security controls<br>• Coordination of security assessments<br>• Incident response coordination | [Name] |
 | **IT Operations Manager** | • Security of infrastructure and operations<br>• Implementation of technical security controls<br>• Management of backup and recovery processes<br>• Oversight of access control implementation | [Name] |
 | **Development Manager** | • Security in the development lifecycle<br>• Secure coding standards and practices<br>• Security testing integration<br>• Developer security awareness | [Name] |
-| **Security Champions** | • Promotion of security within teams<br>• First point of contact for security questions<br>• Support for security implementation<br>• Security awareness promotion | [Names by Department] |
+| **Delivery Leads** | • Promotion of security within teams<br>• First point of contact for security questions<br>• Support for security implementation<br>• Security awareness promotion | [Names by Department] |
 | **All Staff** | • Following security policies and procedures<br>• Reporting security incidents and concerns<br>• Protecting information assets<br>• Completing required security training | All Employees |
 
 ### 3.3 Client Project Security Roles

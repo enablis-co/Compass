@@ -549,7 +549,7 @@ Security practices evolve with emerging threats and technologies, incorporating 
 
 - Security knowledge sharing should be encouraged
 - Security updates should be communicated to developers
-- Security champions should be identified and supported
+- Delivery leads should be supported
 - Security self-education should be promoted
 
 ### 12.2 Security Resources

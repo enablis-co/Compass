@@ -106,7 +106,7 @@ Security is integrated into our core business processes, including:
 - Security awareness program management
 - Incident response coordination
 
-#### 4.1.4 Security Champions
+#### 4.1.4 Delivery Leads
 
 - Designated individuals within delivery teams
 - Promotion of security awareness in their teams

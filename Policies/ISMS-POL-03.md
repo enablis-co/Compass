@@ -4,8 +4,6 @@ title: "Access Control & Identity Management Policy"
 permalink: /policies/isms-pol-03/
 ---
 
-# Enablis Access Control & Identity Management Policy
-
 **Document ID**: ISMS-POL-03  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

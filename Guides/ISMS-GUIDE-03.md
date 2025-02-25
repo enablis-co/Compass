@@ -4,8 +4,6 @@ title: "Secure Development Handbook"
 permalink: /guides/isms-guide-03/
 ---
 
-# Enablis Secure Development Handbook
-
 **Document ID**: ISMS-GUIDE-03  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

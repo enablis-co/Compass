@@ -4,8 +4,6 @@ title: "Incident Management Policy"
 permalink: /policies/isms-pol-04/
 ---
 
-# Enablis Incident Management Policy
-
 **Document ID**: ISMS-POL-04  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

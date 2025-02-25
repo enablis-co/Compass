@@ -4,8 +4,6 @@ title: "Secure Development Policy"
 permalink: /policies/isms-pol-05/
 ---
 
-# Enablis Secure Development Policy
-
 **Document ID**: ISMS-POL-05  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

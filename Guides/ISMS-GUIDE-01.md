@@ -4,8 +4,6 @@ title: "Remote Working Security Guide"
 permalink: /guides/isms-guide-01/
 ---
 
-# Enablis Remote Working Security Guide
-
 **Document ID**: ISMS-GUIDE-01  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

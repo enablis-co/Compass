@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Information Security Management Policy"
 permalink: /policies/isms-pol-01/
 ---

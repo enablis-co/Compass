@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Secure Client Engagement Procedure"
 permalink: /procedures/isms-proc-02/
 ---

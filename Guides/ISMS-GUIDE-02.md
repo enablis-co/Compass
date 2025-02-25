@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Cloud Security Baseline"
 permalink: /guides/isms-guide-02/
 ---

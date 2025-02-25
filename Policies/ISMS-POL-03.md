@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Access Control & Identity Management Policy"
 permalink: /policies/isms-pol-03/
 ---

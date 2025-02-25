@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Secure Development Policy"
 permalink: /policies/isms-pol-05/
 ---

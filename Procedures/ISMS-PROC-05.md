@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Backup & Recovery Procedure"
 permalink: /procedures/isms-proc-05/
 ---

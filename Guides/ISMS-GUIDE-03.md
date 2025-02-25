@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Secure Development Handbook"
 permalink: /guides/isms-guide-03/
 ---

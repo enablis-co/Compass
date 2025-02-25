@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Incident Management Policy"
 permalink: /policies/isms-pol-04/
 ---

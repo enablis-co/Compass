@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Security Incident Response Procedure"
 permalink: /procedures/isms-proc-03/
 ---

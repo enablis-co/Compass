@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: "Asset Management Procedure"
 permalink: /procedures/isms-proc-04/
 ---

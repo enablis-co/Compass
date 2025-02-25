@@ -5,7 +5,7 @@ title: Enablis Compass
 
 <div class="home-sections">
 
-Welcome to the Enablis Compass - your central guide to our information security management system (ISMS) documentation, including policies, procedures, and guides.
+Welcome to Compass - your central guide to our information security management system (ISMS) documentation, including policies, procedures, and guides for the Enablis organization.
 
 
 <h2>Policies</h2>

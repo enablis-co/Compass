@@ -1,10 +1,9 @@
 ---
 layout: home
-title: Compass - Information Security Manual
+title: Compass - Management & Security @ Enablis
 ---
 
 <div class="manual-home">
-  <h1>Information Security Manual</h1>
   
   <p class="manual-intro">
     Welcome to our Information Security Manual. This comprehensive resource contains all the policies, procedures, and guides that govern our information security practices.

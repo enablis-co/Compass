@@ -4,8 +4,6 @@ title: "Secure Client Engagement Procedure"
 permalink: /procedures/isms-proc-02/
 ---
 
-# Enablis Secure Client Engagement Procedure
-
 **Document ID**: ISMS-PROC-02  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

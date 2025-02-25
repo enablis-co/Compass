@@ -4,8 +4,6 @@ title: "Security Incident Response Procedure"
 permalink: /procedures/isms-proc-03/
 ---
 
-# Enablis Security Incident Response Procedure
-
 **Document ID**: ISMS-PROC-03  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

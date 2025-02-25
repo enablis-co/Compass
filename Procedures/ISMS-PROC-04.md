@@ -4,8 +4,6 @@ title: "Asset Management Procedure"
 permalink: /procedures/isms-proc-04/
 ---
 
-# Enablis Asset Management Procedure
-
 **Document ID**: ISMS-PROC-04  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

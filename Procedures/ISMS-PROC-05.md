@@ -4,8 +4,6 @@ title: "Backup & Recovery Procedure"
 permalink: /procedures/isms-proc-05/
 ---
 
-# Enablis Backup & Recovery Procedure
-
 **Document ID**: ISMS-PROC-05  
 **Version**: 1.0  
 **Last Updated**: February 25, 2025  

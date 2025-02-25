@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: Policies
-  link: /#policies
+  link: /policies/
 - name: Procedures
-  link: /#procedures
+  link: /procedures/
 - name: Guides
-  link: /#guides
+  link: /guides/
 - name: About
   link: /about/ 

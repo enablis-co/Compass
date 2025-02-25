@@ -16,10 +16,8 @@
       </label>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title and page.title != "Debug Links" %}
-          <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>
-          {% endif %}
+        {% for item in site.data.navigation %}
+          <a class="page-link" href="{{ site.baseurl }}{{ item.link }}">{{ item.name }}</a>
         {% endfor %}
       </div>
     </nav>

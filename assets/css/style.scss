@@ -44,4 +44,30 @@
       }
     }
   }
+}
+
+.document-list {
+  list-style-type: none;
+  padding-left: 0;
+  
+  li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    transition: background-color 0.2s;
+    
+    &:hover {
+      background-color: #e9ecef;
+    }
+    
+    a {
+      font-weight: bold;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 } 

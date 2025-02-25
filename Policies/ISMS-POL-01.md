@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Information Security Management Policy"
+permalink: /policies/information-security-management-policy/
+---
+
 # Enablis Information Security Management Policy
 
 **Document ID**: ISMS-POL-01  

@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Policies
+  link: /#policies
+- name: Procedures
+  link: /#procedures
+- name: Guides
+  link: /#guides 

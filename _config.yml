@@ -8,4 +8,5 @@ url: "https://enablis-co.github.io" # Replace with your GitHub Pages URL
 markdown: kramdown
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag 
+  - jekyll-seo-tag
+  - jekyll-search 

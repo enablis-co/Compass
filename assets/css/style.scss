@@ -1,0 +1,47 @@
+@import "{{ site.theme }}";
+
+// Document styling
+.document-meta {
+  margin-bottom: 20px;
+  color: #666;
+  
+  span {
+    margin-right: 15px;
+  }
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+// Portal page styling
+.home-sections {
+  h2 {
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    
+    li {
+      margin-bottom: 10px;
+      
+      a {
+        display: block;
+        padding: 10px;
+        background: #f9f9f9;
+        border-radius: 4px;
+        transition: background 0.2s;
+        
+        &:hover {
+          background: #f0f0f0;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+} 

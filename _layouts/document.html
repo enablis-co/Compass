@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="document">
+  <header class="document-header">
+    <h1 class="document-title">{{ page.title | escape }}</h1>
+    <div class="document-meta">
+      {% if page.document_id %}
+      <span class="document-id">Document ID: {{ page.document_id }}</span>
+      {% endif %}
+      {% if page.version %}
+      <span class="document-version">Version: {{ page.version }}</span>
+      {% endif %}
+      {% if page.last_updated %}
+      <span class="document-date">Last Updated: {{ page.last_updated }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="document-content">
+    {{ content }}
+  </div>
+
+  <a href="{{ '/' | relative_url }}" class="back-link">← Back to Home</a>
+</article> 

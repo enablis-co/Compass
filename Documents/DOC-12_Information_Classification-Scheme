@@ -1,0 +1,388 @@
+# Enablis Information Classification Scheme
+
+**Document ID**: DOC-12  
+**Version**: 1.0  
+**Last Updated**: February 24, 2025  
+**Owner**: Security Manager  
+**Approved by**: Chief Technology Officer  
+
+## 1. Introduction
+
+### 1.1 Purpose
+This Information Classification Scheme establishes a framework for categorizing information assets based on their sensitivity and criticality to Enablis and its clients. It provides clear guidelines for handling information according to its classification, ensuring appropriate protection while enabling efficient business operations.
+
+### 1.2 Scope
+This scheme applies to:
+- All information created, processed, stored, or transmitted by Enablis
+- All information entrusted to Enablis by clients and third parties
+- All formats including electronic data, physical documents, and verbal communications
+- All employees, contractors, and temporary staff with access to Enablis information
+- All locations from which Enablis business is conducted
+
+### 1.3 Benefits
+Implementing this classification scheme provides the following benefits:
+- Clear understanding of information value and sensitivity
+- Consistent protection across the organization
+- Appropriate controls based on information criticality
+- Efficient sharing of information while maintaining security
+- Compliance with regulatory and contractual requirements
+- Reduction of security incidents related to information handling
+
+## 2. Classification Levels
+
+Enablis uses four classification levels for information assets:
+
+### 2.1 Public
+Information explicitly approved for public distribution without restrictions.
+
+**Examples**:
+- Marketing materials
+- Public website content
+- Press releases
+- Published case studies (approved by clients)
+- Open source code contributions
+- Public job postings
+
+**Business impact if compromised**: Minimal to none.
+
+### 2.2 Internal
+Information intended for general internal use within Enablis, but not approved for public release.
+
+**Examples**:
+- Internal policies and procedures
+- Organizational charts
+- Company announcements
+- General business communications
+- Internal knowledge base articles
+- Non-sensitive project documentation
+- Training materials
+
+**Business impact if compromised**: Low, could cause minor embarrassment or operational inconvenience.
+
+### 2.3 Confidential
+Sensitive information that requires protection against unauthorized access and must only be shared on a need-to-know basis.
+
+**Examples**:
+- Client project details without explicit sensitivity
+- Internal financial information
+- Employee performance data
+- Strategic business plans
+- Proprietary technical designs
+- Vendor contracts and agreements
+- Detailed system architecture documentation
+- Security event information
+
+**Business impact if compromised**: Moderate, could result in financial loss, competitive disadvantage, reputation damage, or breach of contractual obligations.
+
+### 2.4 Restricted
+Highly sensitive information that requires the strictest protection and is only accessible to specifically authorized individuals.
+
+**Examples**:
+- Client data explicitly marked as sensitive
+- Authentication credentials
+- Encryption keys and certificates
+- Personal data subject to privacy regulations
+- Financial data subject to regulatory compliance
+- Detailed security controls and vulnerabilities
+- Merger and acquisition information
+- Intellectual property with significant competitive value
+
+**Business impact if compromised**: Severe, could result in significant financial loss, serious reputation damage, legal consequences, regulatory penalties, or breach of client trust.
+
+## 3. Classification Criteria
+
+When determining the appropriate classification level for information, the following criteria should be considered:
+
+### 3.1 Confidentiality Requirements
+- **Public**: No confidentiality required
+- **Internal**: Limited confidentiality, restricted to Enablis personnel
+- **Confidential**: Significant confidentiality, restricted to specific teams or roles
+- **Restricted**: Highest confidentiality, restricted to named individuals
+
+### 3.2 Integrity Requirements
+- **Public**: Integrity is desirable but alterations would have minimal impact
+- **Internal**: Integrity is important, unauthorized changes should be detectable
+- **Confidential**: Integrity is highly important, controls must prevent unauthorized changes
+- **Restricted**: Integrity is critical, strong controls must protect against any unauthorized changes
+
+### 3.3 Availability Requirements
+- **Public**: Availability is desirable but not critical
+- **Internal**: Availability is important, but temporary unavailability is acceptable
+- **Confidential**: Availability is highly important, significant disruption would impact operations
+- **Restricted**: Availability is critical, disruption would have severe business consequences
+
+### 3.4 Regulatory and Contractual Requirements
+- Legal obligations regarding information handling
+- Client contractual requirements
+- Industry standards and compliance frameworks
+- Privacy regulations and data protection laws
+
+### 3.5 Business Value
+- Strategic importance to Enablis
+- Competitive advantage provided by the information
+- Cost and effort to create or acquire the information
+- Operational impact if the information became unavailable
+
+## 4. Classification Responsibilities
+
+### 4.1 Information Owners
+Information owners are responsible for:
+- Assigning initial classification to information they create or manage
+- Reviewing and updating classifications as necessary
+- Approving access to information based on classification
+- Ensuring appropriate controls are implemented
+
+### 4.2 All Staff
+All staff are responsible for:
+- Understanding and following this classification scheme
+- Handling information according to its classification
+- Questioning classifications that seem inappropriate
+- Reporting potential misclassification or improper handling
+
+### 4.3 Security Manager
+The Security Manager is responsible for:
+- Maintaining and updating this classification scheme
+- Providing guidance on classification decisions
+- Monitoring compliance with classification requirements
+- Conducting awareness and training activities
+
+### 4.4 IT Department
+The IT Department is responsible for:
+- Implementing technical controls to support classification
+- Managing access controls according to classification
+- Advising on technical solutions for information protection
+- Monitoring systems for classification compliance
+
+## 5. Handling Requirements
+
+### 5.1 Labeling and Identification
+
+| Classification | Electronic Documents | Physical Documents | Email Subject | Verbal Communications |
+|----------------|----------------------|---------------------|---------------|---------------------|
+| Public | No specific labeling | No specific labeling | No specific labeling | No specific requirements |
+| Internal | "Enablis Internal" in header/footer | "Enablis Internal" on each page | [Internal] prefix | Indicate information is for internal use only |
+| Confidential | "Enablis Confidential" in header/footer | "Enablis Confidential" on each page | [Confidential] prefix | Explicitly state confidential nature before sharing |
+| Restricted | "Enablis Restricted" in header/footer with owner | "Enablis Restricted" on each page with owner | [Restricted] prefix | Verify authorization before discussing |
+
+### 5.2 Storage and Access
+
+| Classification | Access Control | Storage Requirements | Authentication | Monitoring |
+|----------------|----------------|----------------------|----------------|------------|
+| Public | No restrictions | No special requirements | Standard authentication | Not required |
+| Internal | Limited to Enablis personnel | Authorized systems only | Standard authentication | General system monitoring |
+| Confidential | Need-to-know basis | Encrypted storage | Strong authentication | Access logging |
+| Restricted | Named individuals only | Encrypted with strong controls | Multi-factor authentication | Comprehensive logging and monitoring |
+
+### 5.3 Transmission
+
+| Classification | Internal Transmission | External Transmission | Verification Requirements |
+|----------------|----------------------|------------------------|---------------------------|
+| Public | No restrictions | No restrictions | None |
+| Internal | No special requirements | Avoid unless necessary | Confirm recipient is Enablis employee |
+| Confidential | Encrypted when across public networks | Encrypted transmission required | Verify recipient authorization |
+| Restricted | Always encrypted | Strongly encrypted with additional controls | Verify recipient identity and authorization |
+
+### 5.4 Duplication and Printing
+
+| Classification | Duplication Controls | Printing Controls | Copy Tracking |
+|----------------|----------------------|-------------------|---------------|
+| Public | No restrictions | No restrictions | Not required |
+| Internal | No special restrictions | Collect promptly from printers | Not required |
+| Confidential | Only when necessary | Secure printing only | Consider tracking copies |
+| Restricted | Only with explicit approval | Avoid if possible, secure printing only | Track all copies |
+
+### 5.5 Disposal
+
+| Classification | Electronic Disposal | Physical Disposal | Verification |
+|----------------|---------------------|-------------------|-------------|
+| Public | Standard deletion | Regular waste | Not required |
+| Internal | Standard deletion | Regular waste or shredding | Not required |
+| Confidential | Secure deletion | Cross-cut shredding | Verify process |
+| Restricted | Secure deletion with verification | Secure shredding with certificate | Documented destruction |
+
+### 5.6 Remote Working
+
+| Classification | Remote Access | Local Storage | Display Privacy |
+|----------------|---------------|---------------|----------------|
+| Public | No restrictions | No restrictions | No special requirements |
+| Internal | Standard remote access | Allowed with standard protection | Basic privacy measures |
+| Confidential | Secure remote access only | Temporary only with encryption | Privacy screen recommended |
+| Restricted | Secure, authorized devices only | Prohibited unless specifically approved | Privacy screen mandatory |
+
+## 6. Classification Procedures
+
+### 6.1 Initial Classification
+When creating new information:
+1. Assess sensitivity using classification criteria
+2. Assign appropriate classification level
+3. Apply required labeling
+4. Implement handling controls based on classification
+5. Communicate classification to authorized recipients
+
+### 6.2 Reclassification
+Information may be reclassified when:
+- Sensitivity changes over time
+- Business requirements change
+- Aggregation increases sensitivity
+- Legal or regulatory requirements change
+
+The reclassification process includes:
+1. Document justification for reclassification
+2. Obtain approval from information owner
+3. Update labeling and controls
+4. Notify authorized users of changes
+5. Verify implementation of new controls
+
+### 6.3 Declassification
+Information may be declassified when:
+- Time sensitivity expires
+- Business needs require broader sharing
+- Public disclosure is approved
+
+The declassification process includes:
+1. Review by information owner
+2. Approval by appropriate authority
+3. Removal of classification markings
+4. Update of access controls
+5. Documentation of declassification decision
+
+## 7. Classification in Client Environments
+
+### 7.1 Client Classification Schemes
+When working with client information:
+- Client classification schemes take precedence for client data
+- Mapping between Enablis and client classifications should be documented
+- The higher classification applies when there is uncertainty
+- Client approval is required for any reclassification of their information
+
+### 7.2 Cross-Client Information
+When information relates to multiple clients:
+- The highest applicable classification applies
+- Explicit approval is required before sharing between client contexts
+- Aggregation of multiple client data may increase classification level
+- Documentation must clearly indicate source and classification basis
+
+### 7.3 Client Deliverables
+For information delivered to clients:
+- Classification must be clearly indicated
+- Handling requirements should be communicated
+- Client may apply their own classification upon receipt
+- Delivery method must comply with the classification requirements
+
+## 8. Special Handling Considerations
+
+### 8.1 Personally Identifiable Information (PII)
+- PII must be classified at least as Confidential
+- PII subject to specific regulations may be classified as Restricted
+- Data minimization principles should be applied
+- Additional controls may be required beyond standard classification requirements
+
+### 8.2 Financial Information
+- Financial information must be classified at least as Confidential
+- Detailed financial projections and reports should be classified as Restricted
+- Aggregated financial information may be classified as Internal
+- Publicly reported financial information may be classified as Public
+
+### 8.3 Intellectual Property
+- Intellectual property should be classified based on business value
+- Patent-pending information should be classified as Restricted until filing
+- Copyright materials for public consumption may be classified as Public
+- Source code should be classified based on competitive value and disclosure risk
+
+### 8.4 System Security Information
+- Security configurations should be classified as Confidential or Restricted
+- Authentication credentials must be classified as Restricted
+- General security policies may be classified as Internal
+- Security vulnerabilities must be classified as Restricted until remediated
+
+## 9. Technical Implementation
+
+### 9.1 Document Management Systems
+Document management systems should:
+- Support classification metadata
+- Enable filtering and searching by classification
+- Enforce access controls based on classification
+- Provide audit logging of classification changes
+- Support labeling according to classification requirements
+
+### 9.2 Email Systems
+Email systems should:
+- Support classification tagging in subject lines
+- Provide visual indicators of message classification
+- Warn when sending sensitive information externally
+- Enable encryption based on classification
+- Support Data Loss Prevention (DLP) for higher classifications
+
+### 9.3 Cloud Storage and Sharing
+Cloud platforms should:
+- Implement access controls aligned with classification levels
+- Encrypt data according to classification requirements
+- Provide audit logging appropriate to classification
+- Support expiration and revocation of access
+- Prevent unauthorized sharing of sensitive information
+
+### 9.4 Mobile and Endpoint Devices
+Devices should:
+- Implement controls based on data classification
+- Encrypt storage according to classification requirements
+- Apply screen lock and timeout settings
+- Support remote wipe capabilities
+- Restrict data transfers based on classification
+
+## 10. Training and Awareness
+
+### 10.1 Staff Training
+All staff will receive training on:
+- Understanding classification levels and criteria
+- Recognizing classification indicators
+- Handling requirements for each classification level
+- Procedures for classifying and reclassifying information
+- Reporting misclassification or security concerns
+
+### 10.2 Awareness Program
+The awareness program will include:
+- Regular reminders about classification responsibilities
+- Examples of proper classification decisions
+- Updates on classification requirements
+- Recognition of good classification practices
+- Reporting mechanisms for classification issues
+
+## 11. Compliance and Audit
+
+### 11.1 Monitoring and Review
+Compliance with this scheme will be monitored through:
+- Regular audits of information classification
+- Spot checks of handling practices
+- System monitoring for classification violations
+- Review of access patterns to sensitive information
+- Feedback from information owners and users
+
+### 11.2 Non-Compliance Handling
+Instances of non-compliance will be addressed through:
+- Education and awareness for minor issues
+- Process improvements where systemic issues are identified
+- Reclassification where appropriate
+- Additional controls where required
+- Disciplinary processes for serious violations
+
+## 12. Exceptions
+
+Exceptions to this scheme may be granted only after a documented risk assessment and formal approval by the Security Manager or CTO. All exceptions must be:
+- Documented with a clear business justification
+- Time-limited with a defined expiration date
+- Reviewed periodically for continued necessity
+- Include compensating controls where appropriate
+
+## 13. Related Documents
+
+- POL-01: Information Security Policy
+- POL-02: Acceptable Use Policy
+- POL-04: Access Control Policy
+- POL-10: Data Protection Policy
+- DOC-17: Cryptographic Controls Procedure
+- DOC-36: Data Handling Guidelines
+- FORM-04: Information Classification Exception Request
+
+---
+
+*By working for Enablis, you acknowledge that you have read, understood, and agree to comply with this Information Classification Scheme.*

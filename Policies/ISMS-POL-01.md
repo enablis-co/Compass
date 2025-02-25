@@ -1,14 +1,16 @@
 ---
-layout: document
-title: "Information Security Management Policy"
-permalink: /policies/isms-pol-01/
+layout: page
+title: Information Security Management Policy
+permalink: /policies/information-security-management/
 ---
 
-**Document ID**: ISMS-POL-01  
-**Version**: 1.0  
-**Last Updated**: February 25, 2025  
-**Owner**: Chief Technology Officer  
-**Approved by**: Board of Directors
+# Information Security Management Policy
+
+Document ID: ISMS-POL-01
+Version: 1.0
+Last Updated: February 25, 2025
+Owner: Chief Technology Officer
+Approved by: Board of Directors
 
 ## 1. Purpose and Scope
 

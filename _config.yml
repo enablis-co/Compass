@@ -1,7 +1,7 @@
-title: Enablis Policies
-description: A home for Enablis policies and associated documentation
+title: Enablis Compass
+description: A central guide to Enablis policies, procedures, and best practices
 theme: minima # This is a simple default theme
-baseurl: "/policies" # This should match the repository name
+baseurl: "/compass" # This will need to match your new repository name
 url: "https://enablis-co.github.io" # Your GitHub domain
 
 # Build settings

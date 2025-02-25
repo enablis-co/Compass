@@ -5,4 +5,6 @@
 - name: Procedures
   link: /#procedures
 - name: Guides
-  link: /#guides 
+  link: /#guides
+- name: About
+  link: /about/ 

@@ -532,10 +532,10 @@ This policy will be reviewed annually or when significant changes occur to ensur
 
 ## 14. Related Documents
 
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-02: Data Protection & Classification Policy
-- ISMS-POL-03: Access Control & Identity Management Policy
-- ISMS-PROC-03: Security Incident Response Procedure
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
+- [Access Control & Identity Management Policy]({{ site.baseurl }}/policies/isms-pol-03/)
+- [Security Incident Response Procedure]({{ site.baseurl }}/procedures/isms-proc-03/)
 - ISMS-FORM-03: Security Incident Report Form
 - ISMS-FORM-05: Security Exception Request Form
 

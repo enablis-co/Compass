@@ -852,13 +852,12 @@ Exceptions to this procedure may be granted only after a documented risk assessm
 This procedure will be reviewed annually or when significant changes occur to ensure it remains effective and aligned with business requirements.
 
 ## 16. Related Documents
-
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-04: Incident Management Policy
-- ISMS-PROC-03: Security Incident Response Procedure
-- ISMS-PROC-04: Asset Management Procedure
-- ISMS-FORM-05: Security Exception Request Form
-- ISMS-FORM-12: Backup Verification Form
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/)
+- [Security Incident Response Procedure]({{ site.baseurl }}/procedures/isms-proc-03/)
+- [Asset Management Procedure]({{ site.baseurl }}/procedures/isms-proc-04/)
+- [Security Exception Request Form]({{ site.baseurl }}/forms/isms-form-05/)
+- [Backup Verification Form]({{ site.baseurl }}/forms/isms-form-12/)
 
 ---
 

@@ -632,12 +632,11 @@ Exceptions to this procedure may be granted only after a documented risk assessm
 This procedure will be reviewed annually or when significant changes occur to ensure it remains effective and aligned with business requirements.
 
 ## 14. Related Documents
-
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-02: Data Protection & Classification Policy
-- ISMS-POL-03: Access Control & Identity Management Policy
-- ISMS-FORM-05: Security Exception Request Form
-- ISMS-FORM-11: Asset Management Form
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
+- [Access Control & Identity Management Policy]({{ site.baseurl }}/policies/isms-pol-03/)
+- [Security Exception Request Form]({{ site.baseurl }}/forms/isms-form-05/)
+- [Asset Management Form]({{ site.baseurl }}/forms/isms-form-11/)
 
 ---
 

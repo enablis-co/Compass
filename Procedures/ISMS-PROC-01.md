@@ -427,7 +427,7 @@ This procedure will be reviewed annually or when significant changes occur to en
 
 ## 10. Related Documents
 
-- ISMS-POL-01: Information Security Management Policy
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
 - ISMS-FORM-01: Risk Assessment Matrix
 - ISMS-FORM-06: Rapid Risk Assessment Template
 - ISMS-FORM-07: Risk Register

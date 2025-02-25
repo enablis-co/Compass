@@ -720,11 +720,11 @@ This procedure will be reviewed annually, after significant incidents, or when s
 
 ## 12. Related Documents
 
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-04: Incident Management Policy
-- ISMS-FORM-03: Security Incident Report Form
-- ISMS-PROC-04: Asset Management Procedure
-- ISMS-PROC-05: Backup & Recovery Procedure
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/)
+- [Security Incident Report Form]({{ site.baseurl }}/forms/isms-form-03/)
+- [Asset Management Procedure]({{ site.baseurl }}/procedures/isms-proc-04/)
+- [Backup & Recovery Procedure]({{ site.baseurl }}/procedures/isms-proc-05/)
 
 ---
 

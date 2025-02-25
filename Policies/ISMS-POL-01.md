@@ -5,9 +5,9 @@ permalink: /policies/isms-pol-01/
 ---
 
 **Document ID**: ISMS-POL-01
-**Version**: 1.0  
-**Last Updated**: February 25, 2025  
-**Owner**: Chief Technology Officer  
+**Version**: 1.0
+**Last Updated**: February 25, 2025
+**Owner**: Chief Technology Officer
 **Approved by**: Board of Directors
 
 ## 1. Purpose and Scope

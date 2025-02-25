@@ -478,10 +478,10 @@ This policy will be reviewed annually or when significant changes occur to ensur
 
 ## 19. Related Documents
 
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-03: Access Control & Identity Management Policy
-- ISMS-POL-04: Incident Management Policy
-- ISMS-PROC-02: Secure Client Engagement Procedure
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Access Control & Identity Management Policy]({{ site.baseurl }}/policies/isms-pol-03/)
+- [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/)
+- [ISMS-PROC-02: Secure Client Engagement Procedure]({{ site.baseurl }}/procedures/isms-proc-02/)
 - ISMS-FORM-02: Client Security Requirements Questionnaire
 - ISMS-FORM-04: Project Security Plan Template
 - ISMS-FORM-05: Security Exception Request Form

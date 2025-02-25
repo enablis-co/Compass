@@ -506,15 +506,14 @@ Manage security documentation:
 This procedure will be reviewed annually or when significant changes occur to ensure it remains effective and aligned with business requirements.
 
 ## 12. Related Documents
-
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-02: Data Protection & Classification Policy
-- ISMS-POL-05: Secure Development Policy
-- ISMS-PROC-01: Risk Assessment Procedure
-- ISMS-FORM-01: Risk Assessment Matrix
-- ISMS-FORM-02: Client Security Requirements Questionnaire
-- ISMS-FORM-04: Project Security Plan Template
-- ISMS-FORM-05: Security Exception Request Form
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
+- [Secure Development Policy]({{ site.baseurl }}/policies/isms-pol-05/)
+- [Risk Assessment Procedure]({{ site.baseurl }}/procedures/isms-proc-01/)
+- [Risk Assessment Matrix]({{ site.baseurl }}/forms/isms-form-01/)
+- [Client Security Requirements Questionnaire]({{ site.baseurl }}/forms/isms-form-02/)
+- [Project Security Plan Template]({{ site.baseurl }}/forms/isms-form-04/)
+- [Security Exception Request Form]({{ site.baseurl }}/forms/isms-form-05/)
 
 ---
 

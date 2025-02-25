@@ -497,10 +497,10 @@ This policy will be reviewed annually or when significant changes occur to ensur
 
 ## 18. Related Documents
 
-- ISMS-POL-01: Information Security Management Policy
-- ISMS-POL-02: Data Protection & Classification Policy
-- ISMS-POL-04: Incident Management Policy
-- ISMS-PROC-04: Asset Management Procedure
+- [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
+- [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
+- [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/)
+- [Asset Management Procedure]({{ site.baseurl }}/procedures/isms-proc-04/)
 - ISMS-FORM-05: Security Exception Request Form
 
 ---

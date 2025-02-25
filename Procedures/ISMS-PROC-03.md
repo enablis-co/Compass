@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Security Incident Response Procedure"
+permalink: /procedures/isms-proc-03/
+---
+
 # Enablis Security Incident Response Procedure
 
 **Document ID**: ISMS-PROC-03  

@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Cloud Security Baseline"
+permalink: /guides/isms-guide-02/
+---
+
 # Enablis Cloud Security Baseline
 
 **Document ID**: ISMS-GUIDE-02  

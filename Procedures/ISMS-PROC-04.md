@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Asset Management Procedure"
+permalink: /procedures/isms-proc-04/
+---
+
 # Enablis Asset Management Procedure
 
 **Document ID**: ISMS-PROC-04  

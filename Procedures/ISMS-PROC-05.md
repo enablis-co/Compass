@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Backup & Recovery Procedure"
+permalink: /procedures/isms-proc-05/
+---
+
 # Enablis Backup & Recovery Procedure
 
 **Document ID**: ISMS-PROC-05  

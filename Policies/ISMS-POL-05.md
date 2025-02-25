@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Secure Development Policy"
+permalink: /policies/isms-pol-05/
+---
+
 # Enablis Secure Development Policy
 
 **Document ID**: ISMS-POL-05  

@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Access Control & Identity Management Policy"
+permalink: /policies/isms-pol-03/
+---
+
 # Enablis Access Control & Identity Management Policy
 
 **Document ID**: ISMS-POL-03  

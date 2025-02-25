@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Secure Client Engagement Procedure"
+permalink: /procedures/isms-proc-02/
+---
+
 # Enablis Secure Client Engagement Procedure
 
 **Document ID**: ISMS-PROC-02  

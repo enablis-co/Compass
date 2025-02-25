@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Incident Management Policy"
+permalink: /policies/isms-pol-04/
+---
+
 # Enablis Incident Management Policy
 
 **Document ID**: ISMS-POL-04  

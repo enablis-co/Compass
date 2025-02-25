@@ -1,3 +1,9 @@
+---
+layout: document
+title: "Secure Development Handbook"
+permalink: /guides/isms-guide-03/
+---
+
 # Enablis Secure Development Handbook
 
 **Document ID**: ISMS-GUIDE-03  

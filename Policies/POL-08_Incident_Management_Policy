@@ -1,0 +1,289 @@
+# Enablis Incident Management Policy
+
+**Document ID**: POL-08  
+**Version**: 1.0  
+**Last Updated**: February 24, 2025  
+**Owner**: Security Manager  
+**Approved by**: Chief Technology Officer  
+
+## 1. Purpose and Scope
+
+### 1.1 Purpose
+This Incident Management Policy establishes the framework for effectively identifying, responding to, and recovering from security incidents that may affect Enablis information systems, data, or services. It ensures a consistent, efficient approach to incident management while minimizing adverse impacts on business operations and client services.
+
+### 1.2 Scope
+This policy applies to:
+- All information security incidents affecting Enablis systems, data, or services
+- All employees, contractors, and temporary staff of Enablis
+- Client systems and data managed by Enablis
+- Third-party service providers and partners where relevant to Enablis operations
+- All locations from which Enablis business is conducted, including remote environments
+
+## 2. Incident Definition and Classification
+
+### 2.1 Incident Definition
+An information security incident is defined as a single event or series of events that indicates:
+- Actual or potential compromise of information systems or data
+- Breach of information security policies or controls
+- Disruption of information processing capabilities
+- Violation of security requirements or acceptable use policies
+- Unauthorized access, disclosure, alteration, or destruction of information
+
+### 2.2 Incident Classification
+Incidents shall be classified according to their severity and potential impact:
+
+| Classification | Description | Examples |
+|----------------|-------------|----------|
+| Critical | Severe, immediate impact on critical business functions or client services | - Ransomware attack<br>- Breach of critical data<br>- Complete system outage |
+| High | Significant impact on important business functions or client services | - Localized malware infection<br>- Unauthorized access to sensitive data<br>- Partial system outage |
+| Medium | Limited impact on business functions or client services | - Suspicious activity requiring investigation<br>- Minor policy violations<br>- Isolated system performance issues |
+| Low | Minimal or no immediate impact on business functions or client services | - Attempted but blocked attacks<br>- Minor security policy violations<br>- Single workstation issues |
+
+## 3. Incident Management Team
+
+### 3.1 Team Structure
+The Incident Management Team shall consist of:
+- Incident Response Manager (typically the Security Manager)
+- Technical Response Team Members (relevant IT and security personnel)
+- Communications Coordinator
+- Legal Representative (as needed)
+- Business Representatives (as needed)
+- Client Representatives (for client-impacting incidents)
+
+### 3.2 Roles and Responsibilities
+
+#### 3.2.1 Incident Response Manager
+- Oversees the incident response process
+- Classifies incidents and escalates as appropriate
+- Coordinates the response team
+- Communicates with senior management
+- Makes critical decisions during incident response
+- Approves external communications
+- Ensures proper documentation
+
+#### 3.2.2 Technical Response Team
+- Investigates and analyzes incidents
+- Contains and eradicates threats
+- Recovers affected systems
+- Implements remediation measures
+- Documents technical aspects of incidents
+- Preserves evidence when required
+
+#### 3.2.3 Communications Coordinator
+- Manages internal communications
+- Prepares client communications in consultation with account managers
+- Ensures stakeholders receive appropriate updates
+- Coordinates with PR functions if necessary
+
+#### 3.2.4 Legal Representative
+- Advises on legal implications and requirements
+- Determines notification obligations
+- Assists with regulatory compliance
+- Supports evidence preservation when needed
+
+#### 3.2.5 Business Representatives
+- Assess business impact
+- Advise on business priorities
+- Coordinate business continuity measures
+- Liaise with affected business units
+
+## 4. Incident Response Process
+
+### 4.1 Incident Detection and Reporting
+
+#### 4.1.1 Detection Sources
+Incidents may be detected through:
+- Security monitoring systems
+- Automated alerts
+- System logs
+- Employee observations
+- Client reports
+- Third-party notifications
+- Vulnerability assessments and penetration tests
+
+#### 4.1.2 Reporting Procedure
+- Any individual who detects or suspects a security incident must report it immediately
+- Incidents should be reported to the Security Manager or IT Operations team
+- Reports should include as much detail as possible
+- After-hours reporting procedures must be established
+- Anonymous reporting mechanisms should be available
+
+### 4.2 Incident Triage and Assessment
+
+#### 4.2.1 Initial Assessment
+- Verify that an incident has occurred
+- Gather preliminary information
+- Determine the scope and nature of the incident
+- Assess the potential impact
+- Classify the incident according to severity
+
+#### 4.2.2 Escalation
+- Critical and High incidents must be escalated to the CTO and relevant directors
+- Client-impacting incidents must be escalated to account managers
+- Escalation procedures must define timeframes and communication methods
+- Out-of-hours escalation contacts must be maintained
+
+### 4.3 Incident Containment and Eradication
+
+#### 4.3.1 Containment Strategies
+- Isolate affected systems
+- Block malicious traffic
+- Disable compromised accounts
+- Implement temporary controls
+- Preserve evidence when necessary
+
+#### 4.3.2 Eradication
+- Identify and eliminate the cause of the incident
+- Remove malware or unauthorized access
+- Address vulnerabilities that were exploited
+- Verify that threats have been eliminated
+- Prepare for recovery
+
+### 4.4 Recovery and Restoration
+
+#### 4.4.1 Recovery Procedures
+- Restore systems from clean backups when necessary
+- Rebuild systems according to secure configurations
+- Reset credentials for affected accounts
+- Verify system integrity
+- Implement additional security controls as needed
+
+#### 4.4.2 Verification
+- Test recovered systems
+- Verify that security controls are functioning
+- Confirm that business functions are operational
+- Monitor for signs of persistent threats
+- Validate that data integrity is maintained
+
+### 4.5 Post-Incident Activities
+
+#### 4.5.1 Documentation and Reporting
+- Document all aspects of the incident and response
+- Prepare incident reports for management
+- Maintain records for regulatory compliance
+- Share information with relevant stakeholders
+- Update incident knowledge base
+
+#### 4.5.2 Lessons Learned
+- Conduct post-incident reviews
+- Identify root causes
+- Assess the effectiveness of the response
+- Recommend improvements to security controls
+- Update incident response procedures as needed
+
+## 5. Communication Plan
+
+### 5.1 Internal Communication
+- Regular updates must be provided to management and affected teams
+- Communication frequency should align with incident severity
+- Communication channels must be established in advance
+- Secure communication methods must be used during active incidents
+
+### 5.2 Client Communication
+- Client notification decisions must consider contractual and regulatory requirements
+- Communication must be clear, timely, and appropriate to the situation
+- Account managers must be involved in client communications
+- Updates must be provided as significant developments occur
+
+### 5.3 External Communication
+- External communications must be approved by the Incident Response Manager and leadership
+- Press statements must be coordinated with legal and PR functions
+- Regulatory notifications must comply with relevant requirements
+- Staff must be instructed not to discuss incidents externally
+
+## 6. Client Environment Incidents
+
+### 6.1 Client-Managed Environments
+When incidents occur in client-managed environments where Enablis provides services:
+- Incidents must be reported to client security contacts according to contracted terms
+- Support must be provided as defined in service agreements
+- Evidence must be preserved according to client policies
+- Escalation within the client organization must follow established procedures
+
+### 6.2 Enablis-Managed Client Environments
+When incidents occur in environments managed by Enablis on behalf of clients:
+- This incident management policy applies fully
+- Client notification must occur according to service agreements
+- Recovery priorities must consider client business needs
+- Documentation must be provided to clients as appropriate
+
+## 7. Evidence Collection and Handling
+
+### 7.1 Evidence Collection
+- Evidence must be collected when incidents may involve legal or regulatory implications
+- Collection must preserve evidence integrity
+- Chain of custody must be maintained
+- Digital forensics best practices must be followed
+
+### 7.2 Evidence Preservation
+- Evidence must be stored securely
+- Access to evidence must be restricted and logged
+- Evidence retention must comply with legal requirements
+- Documentation must include timestamps and personnel involved
+
+## 8. Testing and Training
+
+### 8.1 Incident Response Testing
+- Incident response procedures must be tested at least annually
+- Tests should include various incident scenarios
+- Table-top exercises should be conducted quarterly
+- Technical response capabilities should be tested periodically
+
+### 8.2 Staff Training
+- All staff must receive basic incident reporting training
+- Incident Management Team members must receive specialized training
+- Awareness programs must reinforce incident reporting procedures
+- Training must be updated to address emerging threats
+
+## 9. Continuous Improvement
+
+### 9.1 Metrics and Measurement
+- Incident response metrics must be collected and analyzed
+- Response time, containment time, and recovery time must be measured
+- Incident trends must be identified and addressed
+- Performance against Service Level Agreements must be tracked
+
+### 9.2 Policy and Procedure Updates
+- This policy must be reviewed annually
+- Incident response procedures must be updated based on lessons learned
+- Changes in technology or threat landscape must prompt procedure reviews
+- Best practices from industry sources should be incorporated
+
+## 10. Exceptions
+
+Exceptions to this policy may be granted only after a documented risk assessment and formal approval by the Security Manager or CTO. All exceptions must be:
+- Documented with a clear business justification
+- Time-limited with a defined expiration date
+- Reviewed periodically for continued necessity
+
+## 11. Policy Compliance
+
+### 11.1 Verification
+Compliance with this policy will be verified through:
+- Incident response testing
+- Post-incident reviews
+- Internal audits
+- Training completion records
+
+### 11.2 Consequences of Non-Compliance
+Failures to comply with this policy may result in:
+- Additional training requirements
+- Increased oversight
+- Disciplinary action in accordance with HR policies
+
+## 12. Policy Review
+
+This policy will be reviewed annually or when significant changes occur to ensure it remains aligned with business requirements, evolving threats, and regulatory obligations.
+
+## 13. Related Documents
+
+- POL-01: Information Security Policy
+- POL-06: Backup Policy
+- DOC-09: Business Continuity Plan
+- DOC-21: Incident Response Procedure
+- FORM-03: Incident Report Template
+- DOC-22: Incident Communication Templates
+
+---
+
+*By working for Enablis, you acknowledge that you have read, understood, and agree to comply with this Incident Management Policy.*

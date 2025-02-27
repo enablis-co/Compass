@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Management & Security @ Enablis
+title: Security Framework @ Enablis
 ---
 
 <div class="manual-home">

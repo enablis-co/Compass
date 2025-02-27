@@ -157,8 +157,7 @@ Risk treatment options include:
 Risk acceptance decisions will be made at appropriate levels based on risk magnitude:
 
 - Low risks: Security Manager
-- Medium risks: CTO
-- High and critical risks: Board of Directors
+- Medium and above risks: CTO
 
 All accepted risks will be documented and reviewed regularly.
 

@@ -14,6 +14,7 @@ title: Management & Security @ Enablis
       <h2>ISMS Manual</h2>
       <p>Start here with our Information Security Management System (ISMS) Manual - the primary navigational document for our security framework.</p>
       <a href="{{ '/isms-manual/' | relative_url }}" class="view-all">Read the ISMS Manual →</a>
+      <br>
     </div>
 
     <div class="section-card">

@@ -77,20 +77,6 @@ Enablis embraces flexible working arrangements, recognizing that our team can de
 - Separate guest and home networks if your router supports it
 - Position your router centrally to minimize signal outside your home
 
-#### 2.2.2 Network Segmentation
-
-**Best Practices:**
-
-- Keep work devices on a separate network from personal or IoT devices when possible
-- Consider a dedicated SSID for work devices
-- Use VLANs if you have the technical knowledge to set them up
-
-**Practical Tips:**
-
-- Many modern routers support "guest networks" which can be used to separate devices
-- If using a mesh network system, check if it supports multiple networks
-- As a minimum, ensure IoT devices are on a separate network from work devices
-
 ### 2.3 Ergonomics and Wellbeing
 
 #### 2.3.1 Ergonomic Setup
@@ -194,8 +180,6 @@ If using personal devices for work (where approved):
 
 - Review app permissions periodically
 - Uninstall unused applications
-- Disable Bluetooth and WiFi when not in use
-- Use secure containers for work apps if available
 
 ## 4. Secure Communications
 
@@ -282,7 +266,7 @@ If using personal devices for work (where approved):
 
 **Practical Tips:**
 
-- Use Microsoft Teams for work communications
+- Use Slack or Google Meet for work communications
 - Create separate channels for different projects or topics
 - Use thread replies to keep conversations organized
 - Remember that even "deleted" messages may be recoverable
@@ -312,7 +296,7 @@ If using personal devices for work (where approved):
 **Best Practices:**
 
 - Store work data on approved company systems
-- Use company OneDrive/SharePoint rather than local storage
+- Use company Google Drives rather than local storage
 - Don't use personal cloud storage for work data
 - Ensure appropriate access controls are applied to shared data
 
@@ -352,8 +336,6 @@ If using personal devices for work (where approved):
 
 **Practical Tips:**
 
-- Save directly to OneDrive/SharePoint rather than saving locally then uploading
-- Periodically check that cloud sync is working correctly
 - Use version history features in cloud storage
 - Familiarize yourself with file recovery procedures
 
@@ -386,7 +368,6 @@ If using personal devices for work (where approved):
 
 **Practical Tips:**
 
-- Use secure deletion tools rather than just deleting files
 - Check downloads folders, desktop, and recycle bin for work files
 - Remember to remove work accounts from browsers if using personal devices
 - Clear browser caches that might contain work information
@@ -402,46 +383,10 @@ If using personal devices for work (where approved):
 
 **Practical Tips:**
 
-- Consider a cross-cut shredder for home use if you print regularly
-- Keep a "to shred" folder for documents to return to the office
 - Minimize printing of sensitive information
 - Check if your local office has a secure document disposal service you can use
 
 ## 6. VPN and Remote Access
-
-### 6.1 VPN Usage
-
-#### 6.1.1 When to Use VPN
-
-**Best Practices:**
-
-- Use VPN when accessing internal company resources
-- Use VPN when working on public or untrusted networks
-- Follow company guidelines for VPN usage
-- Don't disable VPN while accessing company resources
-
-**Practical Tips:**
-
-- Connect to VPN as part of your startup routine
-- Check VPN is connected before accessing sensitive systems
-- If VPN disconnects, close sensitive applications until reconnected
-- Report persistent VPN issues rather than working without it
-
-#### 6.1.2 VPN Troubleshooting
-
-**Common VPN Issues:**
-
-- Connection timeouts
-- Authentication failures
-- Slow performance
-- Disconnections
-
-**Practical Tips:**
-
-- Restart your VPN client if connection issues occur
-- Check your internet connection with other applications
-- Try connecting from a different network if possible
-- Contact IT support if issues persist
 
 ### 6.2 Remote Access Security
 
@@ -495,7 +440,6 @@ If using personal devices for work (where approved):
 - Consider a mobile data plan with hotspot capability
 - Turn off auto-connect for public networks
 - Disable file sharing when on public networks
-- Use VPN even if the public network claims to be secure
 
 #### 7.1.2 Visual Privacy
 
@@ -621,15 +565,15 @@ If using personal devices for work (where approved):
 
 ### 9.1 Recognizing Security Incidents
 
-#### 9.1.1 Potential Incidents
+Security incidents are defined in our [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/). Common types include:
 
-Watch for these warning signs:
-
-- Unusual computer behavior or performance
-- Unexpected software installations or changes
-- Suspicious emails or messages
-- Unauthorized access attempts
-- Missing devices or equipment
+- Data breaches and unauthorized access
+- Malware infections including ransomware
+- Account compromises
+- Denial of service attacks
+- System intrusions
+- Social engineering attempts
+- Physical security breaches
 
 **Practical Tips:**
 
@@ -638,47 +582,31 @@ Watch for these warning signs:
 - Be alert to phishing attempts and social engineering
 - Don't ignore warning messages from security software
 
-#### 9.1.2 Client Data Incidents
-
-Be especially vigilant with client data:
-
-- Unauthorized access to client information
-- Accidental disclosure or sharing
-- Lost or stolen devices containing client data
-- Requests for client information from unexpected sources
-
-**Practical Tips:**
-
-- Double-check recipients before sending client information
-- Verify unusual requests through secondary channels
-- Be cautious with client data downloads and local storage
-- Know client-specific reporting requirements
-
 ### 9.2 Reporting Procedures
 
 #### 9.2.1 How to Report
 
-**Reporting methods:**
+For **Critical or High severity** potential incidents:
 
-- Email: <security@enablis.co>
-- Phone: Security Manager at +44 (0)113 323 9900 ext. 123
-- Teams: #security-alerts channel
-- In-person: Any member of the security team
+1. Immediately call the Security Manager
+2. If unavailable, call the IT Operations Manager
+3. Follow up with email to <security@enablis.co>
 
-**After hours emergency:**
+For **Medium or Low severity** potential incidents:
 
-- Call the security hotline: +44 (0)7700 900123
+- Email <security@enablis.co>
+- Include "Security Incident" in subject line
+- Provide details outlined below
 
 #### 9.2.2 What to Report
 
 Include the following information when reporting:
 
-- What happened (as specifically as possible)
-- When it occurred
+- Description of the incident
 - Systems or data potentially affected
-- Actions you've already taken
+- Date and time of discovery
+- Any actions already taken
 - Your contact information
-- Any immediate concerns
 
 **Practical Tips:**
 
@@ -686,6 +614,8 @@ Include the following information when reporting:
 - Be honest and thorough in your reporting
 - Don't attempt extensive investigation on your own
 - Follow instructions from the security team
+
+For full details on incident response procedures, refer to our [Security Incident Response Procedure]({{ site.baseurl }}/procedures/isms-proc-03/).
 
 ## 10. Client-Specific Considerations
 
@@ -749,6 +679,7 @@ Include the following information when reporting:
 - Don't store credentials in code or configuration files
 - Follow secure coding practices
 - Implement appropriate testing and validation
+- Ensure pipelines enforce peer review
 
 **Practical Tips:**
 
@@ -765,14 +696,12 @@ Include the following information when reporting:
 
 **Stay informed through:**
 
-- Company security newsletters
 - Security awareness training
 - Team security briefings
 - Industry security news
 
 **Practical Tips:**
 
-- Set aside time to review security communications
 - Participate actively in security training
 - Share relevant security information with colleagues
 - Ask questions about security topics you don't understand
@@ -781,10 +710,8 @@ Include the following information when reporting:
 
 **Available resources:**
 
-- Security Wiki on the intranet
 - Security awareness training platform
-- #security-awareness Teams channel
-- Security team office hours
+- Industry publications
 
 **Practical Tips:**
 
@@ -827,30 +754,7 @@ Include the following information when reporting:
 - Create a blame-free environment for security discussions
 - Recognize that security is everyone's responsibility
 
-## 12. Contact Information and Resources
-
-### 12.1 Key Contacts
-
-**Security Team:**
-
-- Security Manager: +44 (0)113 323 9900 ext. 123
-- IT Support: +44 (0)113 323 9900 ext. 100
-- After Hours Security Hotline: +44 (0)7700 900123
-
-**Email Contacts:**
-
-- General Security Questions: <security@enablis.co>
-- Incident Reporting: <incidents@enablis.co>
-- Phishing Reports: <phishing@enablis.co>
-
-### 12.2 Security Resources
-
-**Internal Resources:**
-
-- Security Policies on the Intranet
-- Remote Working Security Checklist
-- Device Security Guides
-- Client Security Requirements Database
+## 12. Resources
 
 **External Resources:**
 

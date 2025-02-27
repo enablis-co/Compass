@@ -852,6 +852,7 @@ Exceptions to this procedure may be granted only after a documented risk assessm
 This procedure will be reviewed annually or when significant changes occur to ensure it remains effective and aligned with business requirements.
 
 ## 16. Related Documents
+
 - [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
 - [Incident Management Policy]({{ site.baseurl }}/policies/isms-pol-04/)
 - [Security Incident Response Procedure]({{ site.baseurl }}/procedures/isms-proc-03/)

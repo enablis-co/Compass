@@ -13,12 +13,15 @@ permalink: /isms-manual/
 ## 1. Introduction
 
 ### 1.1 Purpose of This Manual
+
 This manual provides an overview of the Enablis Information Security Management System (ISMS). It serves as the primary navigational document for our security framework, explaining our approach, structure, and implementation.
 
 ### 1.2 About Enablis
+
 Enablis is a technology consultancy that helps organizations harness the potential of technologies, transform how they work, and build digital roadmaps. We provide world-class teams and unrivalled technical excellence while maintaining a simple, direct approach to getting our clients' businesses where they want to go.
 
 ### 1.3 Our Security Approach
+
 Our security approach aligns with our company values:
 
 - **Be bold**: We take calculated risks while ensuring appropriate security controls.
@@ -29,6 +32,7 @@ Our security approach aligns with our company values:
 ## 2. ISMS Structure and Documentation
 
 ### 2.1 Documentation Hierarchy
+
 Our ISMS documentation is structured in a lean, purpose-driven hierarchy:
 
 1. **ISMS Manual** (this document): The navigational overview
@@ -38,6 +42,7 @@ Our ISMS documentation is structured in a lean, purpose-driven hierarchy:
 5. **Forms and Templates**: Supporting documents for consistent implementation
 
 ### 2.2 Core Policy Set
+
 The foundation of our ISMS consists of five core policies:
 
 | Document ID | Title | Purpose |
@@ -49,6 +54,7 @@ The foundation of our ISMS consists of five core policies:
 | ISMS-POL-05 | Secure Development Policy | Security in the development lifecycle |
 
 ### 2.3 Essential Procedures
+
 The following procedures operationalize our security policies:
 
 | Document ID | Title | Purpose |
@@ -60,6 +66,7 @@ The following procedures operationalize our security policies:
 | ISMS-PROC-05 | Backup & Recovery Procedure | Data protection and availability |
 
 ### 2.4 Practical Guides
+
 Guides provide actionable security information for specific domains:
 
 | Document ID | Title | Purpose |
@@ -69,6 +76,7 @@ Guides provide actionable security information for specific domains:
 | ISMS-GUIDE-03 | Secure Development Handbook | Practical secure coding guidance |
 
 ### 2.5 Forms and Templates
+
 Key forms and templates support security processes:
 
 | Document ID | Title | Purpose |
@@ -108,14 +116,18 @@ Key forms and templates support security processes:
 ## 4. Risk Management Approach
 
 ### 4.1 Risk Management Framework
+
 Our risk management approach is:
+
 - Pragmatic and business-focused
 - Integrated with project and delivery processes
 - Scaled according to data sensitivity and system criticality
 - Focused on practical risk reduction
 
 ### 4.2 Risk Assessment Process
+
 We follow a streamlined risk assessment process:
+
 1. **Identify assets and threats**: What are we protecting and what could go wrong?
 2. **Analyze risks**: How likely and impactful are potential security events?
 3. **Evaluate risks**: Which risks require action and in what priority?
@@ -123,7 +135,9 @@ We follow a streamlined risk assessment process:
 5. **Monitor and review**: Are our risk controls effective?
 
 ### 4.3 Risk Treatment
+
 We apply the following risk treatments:
+
 - **Mitigate**: Implement controls to reduce risk
 - **Transfer**: Share risk through insurance or contracts
 - **Accept**: Formally accept risks within our risk appetite
@@ -132,6 +146,7 @@ We apply the following risk treatments:
 ## 5. ISMS Implementation
 
 ### 5.1 Implementation Principles
+
 Our ISMS implementation follows these principles:
 
 1. **Business Alignment**: Security supports our business model and client service
@@ -151,7 +166,9 @@ Our ISMS implementation follows these principles:
 | **Asset Management** | • Asset inventory and classification<br>• Defined ownership and responsibility<br>• Secure lifecycle management<br>• Client asset handling |
 
 ### 5.3 Client Project Implementation
+
 For client projects, we:
+
 1. Identify client-specific security requirements early
 2. Document requirements in Project Security Plans
 3. Implement appropriate controls during delivery
@@ -161,13 +178,17 @@ For client projects, we:
 ## 6. Compliance and Measurement
 
 ### 6.1 Compliance Framework
+
 Our ISMS is designed to support:
+
 - ISO/IEC 27001:2022 requirements
 - UK Cyber Essentials Plus certification
 - Client-specific compliance needs
 
 ### 6.2 Measurement and Metrics
+
 We monitor security effectiveness through:
+
 - Security incident metrics
 - Risk treatment effectiveness
 - Compliance with security requirements
@@ -175,7 +196,9 @@ We monitor security effectiveness through:
 - Client security satisfaction
 
 ### 6.3 Continual Improvement
+
 We improve our security through:
+
 - Regular review of security controls
 - Lessons learned from incidents
 - Security testing and assessment findings
@@ -185,7 +208,9 @@ We improve our security through:
 ## 7. ISMS Maintenance
 
 ### 7.1 Document Control
+
 All ISMS documents follow version control practices:
+
 - Clear document identification and ownership
 - Consistent formatting and structure
 - Regular review and updates
@@ -193,6 +218,7 @@ All ISMS documents follow version control practices:
 - Accessibility to relevant staff
 
 ### 7.2 Review Cycle
+
 | Document Type | Review Frequency | Responsible Role |
 |---------------|------------------|------------------|
 | ISMS Manual | Annual | Chief Technology Officer |
@@ -202,7 +228,9 @@ All ISMS documents follow version control practices:
 | Forms & Templates | Every two years | Document Owner |
 
 ### 7.3 Exception Management
+
 Security exceptions:
+
 - Must be formally requested using the Exception Request Form
 - Require appropriate risk assessment
 - Must be approved at the right level based on risk
@@ -214,11 +242,11 @@ Security exceptions:
 For questions about the ISMS:
 
 **Security Team Contact**:  
-Email: security@enablis.co  
+Email: <security@enablis.co>  
 Phone: +44 (0)113 323 9900 ext. 123
 
 **IT Support**:  
-Email: support@enablis.co  
+Email: <support@enablis.co>  
 Phone: +44 (0)113 323 9900 ext. 100
 
 ---

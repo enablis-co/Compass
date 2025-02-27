@@ -506,6 +506,7 @@ Manage security documentation:
 This procedure will be reviewed annually or when significant changes occur to ensure it remains effective and aligned with business requirements.
 
 ## 12. Related Documents
+
 - [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
 - [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
 - [Secure Development Policy]({{ site.baseurl }}/policies/isms-pol-05/)

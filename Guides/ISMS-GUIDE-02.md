@@ -5,7 +5,7 @@ permalink: /guides/isms-guide-02/
 ---
 
 **Document ID**: ISMS-GUIDE-02  
-**Version**: 1.0  
+**Version**: 1.0
 **Last Updated**: February 25, 2025  
 **Owner**: Chief Technology Officer  
 **Approved by**: Board of Directors

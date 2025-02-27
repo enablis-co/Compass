@@ -4,7 +4,7 @@ title: Policies
 permalink: /policies/
 ---
 
-# Policies
+## Policies
 
 These policies establish the rules and guidelines for our organization.
 
@@ -17,4 +17,4 @@ These policies establish the rules and guidelines for our organization.
     </li>
   {% endif %}
 {% endfor %}
-</ul> 
+</ul>

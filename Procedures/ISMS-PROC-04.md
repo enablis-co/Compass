@@ -632,6 +632,7 @@ Exceptions to this procedure may be granted only after a documented risk assessm
 This procedure will be reviewed annually or when significant changes occur to ensure it remains effective and aligned with business requirements.
 
 ## 14. Related Documents
+
 - [Information Security Management Policy]({{ site.baseurl }}/policies/isms-pol-01/)
 - [Data Protection & Classification Policy]({{ site.baseurl }}/policies/isms-pol-02/)
 - [Access Control & Identity Management Policy]({{ site.baseurl }}/policies/isms-pol-03/)

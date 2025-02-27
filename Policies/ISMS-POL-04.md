@@ -144,7 +144,7 @@ Incidents may be detected through:
 - Reports should include as much detail as available
 - After-hours reporting methods are available for urgent incidents
 - Reports can be submitted via:
-  - Email to security@enablis.co
+  - Email to <security@enablis.co>
   - Phone to the security hotline
   - In-person to any member of the security team
   - Messaging on the #security-alerts channel

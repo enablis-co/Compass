@@ -143,11 +143,11 @@ Any person who discovers a potential security incident must:
 
    - Immediately contact the Security Manager by phone
    - If unavailable, contact the IT Operations Manager
-   - Follow up with an email to security@enablis.co
+   - Follow up with an email to <security@enablis.co>
 
 2. **For Medium or Low severity potential incidents**:
 
-   - Email security@enablis.co with details
+   - Email <security@enablis.co> with details
    - Include "Security Incident" in the subject line
    - Provide as much information as possible
 

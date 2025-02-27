@@ -5,7 +5,7 @@ permalink: /guides/isms-guide-01/
 ---
 
 **Document ID**: ISMS-GUIDE-01  
-**Version**: 1.0  
+**Version**: 1.0
 **Last Updated**: February 25, 2025  
 **Owner**: Chief Technology Officer  
 **Approved by**: Board of Directors
@@ -231,7 +231,7 @@ If using personal devices for work (where approved):
 
 - Hover over links to preview the URL before clicking
 - If unsure, type URLs directly rather than clicking links
-- Forward suspicious emails to security@enablis.co
+- Forward suspicious emails to <security@enablis.co>
 - Trust your instincts – if something feels wrong, it probably is
 
 ### 4.2 Video and Conference Calls
@@ -660,7 +660,7 @@ Be especially vigilant with client data:
 
 **Reporting methods:**
 
-- Email: security@enablis.co
+- Email: <security@enablis.co>
 - Phone: Security Manager at +44 (0)113 323 9900 ext. 123
 - Teams: #security-alerts channel
 - In-person: Any member of the security team
@@ -839,9 +839,9 @@ Include the following information when reporting:
 
 **Email Contacts:**
 
-- General Security Questions: security@enablis.co
-- Incident Reporting: incidents@enablis.co
-- Phishing Reports: phishing@enablis.co
+- General Security Questions: <security@enablis.co>
+- Incident Reporting: <incidents@enablis.co>
+- Phishing Reports: <phishing@enablis.co>
 
 ### 12.2 Security Resources
 
@@ -854,9 +854,9 @@ Include the following information when reporting:
 
 **External Resources:**
 
-- National Cyber Security Centre: https://www.ncsc.gov.uk/
-- Information Commissioner's Office: https://ico.org.uk/
-- Cyber Essentials: https://www.ncsc.gov.uk/cyberessentials/
+- National Cyber Security Centre: <https://www.ncsc.gov.uk/>
+- Information Commissioner's Office: <https://ico.org.uk/>
+- Cyber Essentials: <https://www.ncsc.gov.uk/cyberessentials/>
 
 ---
 

@@ -5,7 +5,7 @@ permalink: /guides/isms-guide-03/
 ---
 
 **Document ID**: ISMS-GUIDE-03  
-**Version**: 1.0  
+**Version**: 1.0
 **Last Updated**: February 25, 2025  
 **Owner**: Chief Technology Officer  
 **Approved by**: Board of Directors
@@ -208,7 +208,7 @@ A lightweight approach to identify security risks:
 
 **Simplified Template:**
 
-```
+```yaml
 Asset: [Name]
 Description: [Brief description]
 Classification: [Public/Internal/Confidential]

@@ -4,7 +4,7 @@ title: Guides
 permalink: /guides/
 ---
 
-# Guides
+## Guides
 
 These guides provide helpful information and best practices.
 
@@ -17,4 +17,4 @@ These guides provide helpful information and best practices.
     </li>
   {% endif %}
 {% endfor %}
-</ul> 
+</ul>

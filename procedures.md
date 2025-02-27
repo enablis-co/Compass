@@ -4,7 +4,7 @@ title: Procedures
 permalink: /procedures/
 ---
 
-# Procedures
+## Procedures
 
 These procedures provide step-by-step instructions for common tasks.
 
@@ -17,4 +17,4 @@ These procedures provide step-by-step instructions for common tasks.
     </li>
   {% endif %}
 {% endfor %}
-</ul> 
+</ul>

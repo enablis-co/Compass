@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Compass - Management & Security @ Enablis
+title: Management & Security @ Enablis
 ---
 
 <div class="manual-home">

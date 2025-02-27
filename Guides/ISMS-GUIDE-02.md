@@ -44,6 +44,8 @@ When selecting cloud service providers, evaluate their security capabilities aga
 
 #### 2.1.1 Compliance and Certifications
 
+Major cloud providers like AWS, Azure, and Google Cloud Platform (GCP) are pre-certified and maintain extensive compliance programs. For other providers, evaluate their security capabilities against these criteria:
+
 **Recommended Certifications:**
 
 - ISO 27001 certification

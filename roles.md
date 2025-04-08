@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Roles and Responsibilities"
+permalink: /roles/
+---
+
 # ISMS Roles and Responsibilities
 
 **Document ID**: ISMS-DOC-01  

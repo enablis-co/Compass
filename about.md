@@ -24,6 +24,9 @@ The Compass is organized into three main sections:
 - **Policies**: The foundational principles and rules that govern our security approach
 - **Procedures**: Step-by-step instructions for implementing our security policies
 - **Guides**: Practical advice and best practices for specific security topics
+- **Roles**: For information about our ISMS roles and responsibilities, please see [ISMS-DOC-01: Roles and Responsibilities](/roles/).
+
+For a complete overview of our ISMS, please refer to our [ISMS Manual](/isms-manual/).
 
 ### Contact
 

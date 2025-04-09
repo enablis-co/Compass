@@ -91,25 +91,29 @@ Key forms and templates support security processes:
 
 ### 3.1 Information Security Organization
 
-![Information Security Organization](https://placeholder-for-org-chart.com)
+![Information Security Organization](assets/images/org-chart.png)
+
+For detailed information about roles, responsibilities, and authorities within our ISMS, please refer to [ISMS-DOC-01: Roles and Responsibilities](/roles/).
 
 ### 3.2 ISMS Roles and Responsibilities
 
 | Role | Responsibilities | Current Assignment |
 |------|-----------------|-------------------|
-| **Board of Directors** | • Ultimate accountability for information security<br>• Approval of Information Security Policy<br>• Strategic oversight of security risks | Board Members |
-| **Chief Technology Officer** | • Executive responsibility for the ISMS<br>• Strategic direction for security<br>• Approval of security policies<br>• Resource allocation for security | Ed Marshall |
-| **Security Manager** | • Day-to-day management of the ISMS<br>• Implementation and maintenance of security controls<br>• Coordination of security assessments<br>• Incident response coordination | [Name] |
-| **IT Operations Manager** | • Security of infrastructure and operations<br>• Implementation of technical security controls<br>• Management of backup and recovery processes<br>• Oversight of access control implementation | [Name] |
-| **Development Manager** | • Security in the development lifecycle<br>• Secure coding standards and practices<br>• Security testing integration<br>• Developer security awareness | [Name] |
-| **Delivery Leads** | • Promotion of security within teams<br>• First point of contact for security questions<br>• Support for security implementation<br>• Security awareness promotion | [Names by Department] |
+| **Board of Directors** | • Ultimate accountability for information security<br>• Approval of Information Security Policy<br>• Strategic oversight of security risks | Sarah Pawson (Group CEO) |
+| **Chief Technology Officer** | • Executive responsibility for the ISMS<br>• Strategic direction for security<br>• Approval of security policies<br>• Resource allocation for security | Edward Marshall |
+| **Tech Delivery Director** | • Security of infrastructure and operations<br>• Implementation of technical security controls<br>• Management of backup and recovery processes<br>• Oversight of access control implementation | Simon Roberts |
+| **Chief Customer Officer** | • Client security requirements documentation<br>• Client security communication<br>• Client security relationship management | Pete Cotton |
+| **Delivery Director** | • Project security plan implementation<br>• Security activities coordination<br>• Security risk management<br>• Security status reporting | Natalie Lovett |
+| **Group Commercial Director** | • Commercial security oversight<br>• Security in business relationships<br>• Supplier security management | Martin Jones |
+| **Head of Operations** | • Administrative support for ISMS<br>• Documentation management<br>• Training records<br>• Compliance monitoring | Chloe Sennitt |
+| **Admin Team** | • ISMS administrative support<br>• Documentation management<br>• Meeting administration<br>• Training records | Emily Wigglesworth, Meg Parkinson, Amanda Dunlop |
 | **All Staff** | • Following security policies and procedures<br>• Reporting security incidents and concerns<br>• Protecting information assets<br>• Completing required security training | All Employees |
 
 ### 3.3 Client Project Security Roles
 
 | Role | Responsibilities | Assignment Approach |
 |------|-----------------|---------------------|
-| **Account Manager** | • Client security requirements documentation<br>• Client security communication<br>• Client security relationship management | Assigned per client |
+| **Account Lead** | • Client security requirements documentation<br>• Client security communication<br>• Client security relationship management | Assigned per client |
 | **Project Manager** | • Project security plan implementation<br>• Security activities coordination<br>• Security risk management<br>• Security status reporting | Assigned per project |
 | **Technical Lead** | • Technical security implementation<br>• Security architecture decisions<br>• Security control effectiveness<br>• Technical security guidance | Assigned per project |
 
